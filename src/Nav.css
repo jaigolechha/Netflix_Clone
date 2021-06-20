@@ -1,0 +1,32 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px;
+}
+
+.navbarScroll {
+  background-color: #111;
+  z-index: 1;
+  height: 78px;
+  transition-timing-function: ease-in-out;
+  transition: all 0.4s;
+}
+
+.nav_logo {
+  width: 150px;
+  object-fit: contain;
+  position: fixed;
+  left: 20px;
+  height: 95px;
+}
+
+.nav_avatar {
+  width: 50px;
+  object-fit: contain;
+  position: fixed;
+  right: 20px;
+  margin-top: 13px;
+}
